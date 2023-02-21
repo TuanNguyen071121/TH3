@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+        background-color: hsl(236deg 52% 73%);
+        font-family: 'Montserrat', sans-serif;
+
+}
+.right{
+        background-color: hsl(245deg 58% 51%);
+        color: aliceblue;
+}
+.mau-label{
+    color: aliceblue;
+    opacity: 0.8;
+    font-size: 14px;
+}
+.left{
+    background-color: hsl(0deg 0% 100%);
+}
+.but{
+    background-color: white;
+    border-radius: 18px;
+    color: black;
+    font-weight: 800;
+}
+.mau{
+    border: none;
+border-bottom: 2px double gray;
+border-radius:0px;
+opacity: 0.7    ;
+color: hsl(0deg 0% 51%);
+font-size: 12px;
+box-shadow: 0 30px 40px rgba(0, 0, 0, .1);
+}
+input::placeholder {
+    /* chạy tốt trên Chrome, Firefox, Opera, Safari 10.1+ */
+    color: hsl(0deg 0% 51%) !important;
+    opacity: 1;
+    /* Firefox */
+    font-size: 12px;
+}
+.text-left{
+    color: hsl(245deg 58% 51%);
+}
+.text-right{
+    color: hsl(0deg 0% 100%);
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.mau-2{
+    background-color: hsl(245deg 58% 51%);
+        border: none;
+        border-bottom: 2px double gray;
+        border-radius: 0px;
+        opacity: 1    ;
+        color: hsl(0deg 0% 100%);
+        font-size: 12px;
+        box-shadow: 0 30px 40px rgba(0, 0, 0, .1);
+    }
+.right input::placeholder {
+    /* chạy tốt trên Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1;
+    /* Firefox */
+    font-size: 12px;
+}
+.check{
+    border-radius:0px ;
+}
+.a-label{
+        font-weight: 800;
+        color: aliceblue;
+}
+.check{
+    background-color:hsl(245deg 58% 51%) ;
+}

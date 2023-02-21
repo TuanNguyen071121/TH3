@@ -1,0 +1,74 @@
+
+/* .img-bot img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
+body{
+    background-color: rgb(201, 201, 187);
+}
+
+#layer1 {
+    z-index: 10;
+}
+
+#layer2 {
+    z-index: 20;
+}
+
+#layer3 {
+    z-index: 30;
+}
+.pagination{
+    float: right;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+/* set the style for the active class */
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* add background color when user hovers on inactive class */
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+.header{
+    margin: 10px 0;
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pic-card{
+    width: 30px;
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+
+}
+.mau-text{
+        background-color: red;
+            text-align: left;
+            border-radius: 3px;
+            color: white;
+            padding: 0 5px;
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+}
+.select{
+    border: none;
+}
