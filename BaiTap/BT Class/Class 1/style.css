@@ -74,4 +74,5 @@ h3{
 }
 .check{
     background-color:hsl(245deg 58% 51%) ;
+    border-radius: 0px;
 }
